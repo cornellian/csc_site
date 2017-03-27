@@ -4,5 +4,31 @@ body {
 
 .banner-image {
     width: 100%;
-    opacity: 10%;
+}
+
+.info-section {
+    text-align: center;
+    /*margin-left: 70px;*/
+    /*margin-right: 70px;*/
+    height: 600px;
+}
+
+.past-clients {
+    width: 200px;
+}
+
+#btg-pic {
+    width: 250px;
+}
+
+.red-background {
+    background-image: url(../resources/red_duffield_students.jpg);
+    /*background-color: #AF1E2D;*/
+    color: white;
+}
+
+*/ @media (max-width: 640px) {
+    body {
+        padding-top: 100px;
+    }
 }
