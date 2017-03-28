@@ -1,5 +1,5 @@
 body {
-    padding-top: 50px;
+    padding-top: 30px;
     /*height: 2000px;*/
 }
 
@@ -11,19 +11,28 @@ h2 {
     font-size: 4.236em;
 }
 
+h3 {
+    font-size: 2.618em;
+}
+
 p {
     font-size: 1.618em;
 }
 
 .banner-image {
     width: 100%;
+    margin: 0px;
 }
 
 .info-section {
     text-align: center;
+    margin: 0px;
     /*margin-left: 70px;*/
     /*margin-right: 70px;*/
     /*height: 500px;*/
+    /*border-style: solid;*/
+    /*border-bottom-width: thin;*/
+    /*border-bottom: dashed #b31b1b;*/
 }
 
 .past-clients {
@@ -33,9 +42,20 @@ p {
 }
 
 .red-background {
-    background-image: url(../resources/red_duffield_students.jpg);
-    /*background-color: #AF1E2D;*/
+    background-image: url(../resources/banner-notext.png);
+    /*background-color: #b31b1b;*/
     color: white;
+}
+
+.grey-background {
+    margin: 0px;
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.banner-text {
+    padding: 90px;
+    text-align: left;
 }
 
 .left-page {
@@ -49,7 +69,7 @@ p {
 }
 
 #past-clients-header {
-    margin: 20px;
+    /*margin: 20px;*/
 }
 
 @media (max-width: 750px) {
@@ -57,10 +77,17 @@ p {
         font-size: 4.236em;
     }
     h2 {
+        font-size: 2.618em;
+    }
+    h3 {
         font-size: 1.618em;
     }
     p {
         font-size: 1em;
+    }
+    .banner-text {
+        padding: 32px;
+        text-align: center;
     }
     .past-clients {
         width: 100px;
