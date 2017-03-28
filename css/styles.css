@@ -38,12 +38,12 @@ p {
 .past-clients {
     width: 200px;
     /*height: 300px;*/
-    /*margin: 10px;*/
+    /*margin: 40px;*/
+    /*margin-top: 50px;*/
 }
 
-.red-background {
+.banner {
     background-image: url(../resources/banner-notext.png);
-    /*background-color: #b31b1b;*/
     color: white;
 }
 
@@ -58,18 +58,8 @@ p {
     text-align: left;
 }
 
-.left-page {
-    float: left;
-    margin-left: 80px;
-}
-
-.right-page {
-    float: right;
-    margin-right: 80px;
-}
-
-#past-clients-header {
-    /*margin: 20px;*/
+.pic-label {
+    padding: 10px;
 }
 
 @media (max-width: 750px) {
@@ -90,6 +80,9 @@ p {
         text-align: center;
     }
     .past-clients {
-        width: 100px;
+        width: 160px;
+    }
+    .pic-label {
+        /*display: none;*/
     }
 }
