@@ -1,5 +1,6 @@
 body {
     padding-top: 50px;
+    /*height: 2000px;*/
 }
 
 h1 {
@@ -22,13 +23,13 @@ p {
     text-align: center;
     /*margin-left: 70px;*/
     /*margin-right: 70px;*/
-    /*height: 600px;*/
+    /*height: 500px;*/
 }
 
 .past-clients {
-    width: 300px;
+    width: 200px;
     /*height: 300px;*/
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 .red-background {
@@ -39,20 +40,29 @@ p {
 
 .left-page {
     float: left;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .right-page {
     float: right;
-    margin-right: 60px;
+    margin-right: 80px;
 }
 
 #past-clients-header {
-    margin: 50px;
+    margin: 20px;
 }
 
 @media (max-width: 750px) {
+    h1 {
+        font-size: 4.236em;
+    }
+    h2 {
+        font-size: 1.618em;
+    }
+    p {
+        font-size: 1em;
+    }
     .past-clients {
-        width: 150px;
+        width: 100px;
     }
 }
