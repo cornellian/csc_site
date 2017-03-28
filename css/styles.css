@@ -26,19 +26,13 @@ p {
 
 .info-section {
     text-align: center;
-    margin: 0px;
-    /*margin-left: 70px;*/
-    /*margin-right: 70px;*/
-    /*height: 500px;*/
-    /*border-style: solid;*/
-    /*border-bottom-width: thin;*/
-    /*border-bottom: dashed #b31b1b;*/
+    padding: 30px;
 }
 
 .past-clients {
     width: 200px;
     /*height: 300px;*/
-    /*margin: 40px;*/
+    padding: 20px;
     /*margin-top: 50px;*/
 }
 
@@ -84,5 +78,48 @@ p {
     }
     .pic-label {
         /*display: none;*/
+    }
+}
+
+.col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+.rectangle-button {
+    border: 3px solid black;
+    /*width: auto;*/
+    /*display: inline;*/
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
     }
 }
