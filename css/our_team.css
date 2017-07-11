@@ -12,9 +12,13 @@ body {
 
 /*modal*/
 
+#person-description {
+  margin-top: 20px;
+}
 .modal {
   text-align: center;
   margin-top: 15%;
+
 }
 
 /* ---- button ---- */
