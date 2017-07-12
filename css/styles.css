@@ -1,6 +1,7 @@
 body {
     padding-top: 30px;
     /*height: 2000px;*/
+    width: 100%;
 }
 
 h1 {
@@ -81,7 +82,10 @@ p {
     }
 }
 
-.col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths {
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
     position: relative;
     min-height: 1px;
     padding-right: 10px;

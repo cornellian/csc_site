@@ -16,7 +16,7 @@ $(".element-item").click(function (event) {
 // init Isotope
 var iso = new Isotope(".grid", {
   itemSelector: ".element-item",
-  layoutMode: "fitRows"
+  layoutMode: "masonry"
 });
 
 // filter functions
