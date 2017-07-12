@@ -5,21 +5,23 @@
 body {
     font-family: sans-serif;
     /*display:table-cell;*/
-    vertical-align:middle;
+    vertical-align: middle;
 }
-
 
 
 /*modal*/
 
-#person-description {
-  margin-top: 20px;
+#modal-description {
+    margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
-.modal {
-  text-align: center;
-  margin-top: 15%;
 
+.modal {
+    text-align: center;
+    margin-top: 15%;
 }
+
 
 /* ---- button ---- */
 
@@ -87,6 +89,7 @@ body {
 
 .grid {
     border: 1px solid #333;
+    align-content: center;
 }
 
 
@@ -119,6 +122,6 @@ body {
 }
 
 .propic {
-    width: 150px;
-    height: 150px;
+    width: 65%;
+    height: 65%;
 }

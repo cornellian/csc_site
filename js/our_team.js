@@ -1,5 +1,13 @@
-$(".element-item").click(function(event) {
-  console.log(jQuery(this)[0].innerText);
+// var data = JSON.parse(teamdata);
+$(".element-item").click(function (event) {
+  var name = jQuery(this)[0].innerText;
+  $("#modal-title").text(name);
+  name = name.replace(/\s+/g, '');
+  var personObj = teamdata[name];
+  $("#modal-pic").attr('src', personObj.photo);
+  $("#modal-linkedin").text(personObj.linkedin.substring(8));
+  $("#modal-linkedin").attr('href', personObj.linkedin);
+  $("#modal-description").text(personObj.description);
   $(".modal").modal();
 });
 
@@ -14,12 +22,12 @@ var iso = new Isotope(".grid", {
 // filter functions
 var filterFns = {
   // show if number is greater than 50
-  numberGreaterThan50: function(itemElem) {
+  numberGreaterThan50: function (itemElem) {
     var number = itemElem.querySelector(".number").textContent;
     return parseInt(number, 10) > 50;
   },
   // show if name ends with -ium
-  ium: function(itemElem) {
+  ium: function (itemElem) {
     var name = itemElem.querySelector(".name").textContent;
     return name.match(/ium$/);
   }
@@ -27,7 +35,7 @@ var filterFns = {
 
 // bind filter button click
 var filtersElem = document.querySelector(".filters-button-group");
-filtersElem.addEventListener("click", function(event) {
+filtersElem.addEventListener("click", function (event) {
   // only work with buttons
   if (!matchesSelector(event.target, "button")) {
     return;
@@ -48,7 +56,7 @@ for (var i = 0, len = buttonGroups.length; i < len; i++) {
 }
 
 function radioButtonGroup(buttonGroup) {
-  buttonGroup.addEventListener("click", function(event) {
+  buttonGroup.addEventListener("click", function (event) {
     // only work with buttons
     if (!matchesSelector(event.target, "button")) {
       return;
