@@ -22,6 +22,11 @@ body {
     margin-top: 15%;
 }
 
+#modal-pic {
+    width: 150px;
+    height: 150px;
+}
+
 
 /* ---- button ---- */
 
@@ -128,7 +133,15 @@ body {
     padding: 0;
 }
 
+.name {
+    /* margin-top: -150px; */
+    color: black;
+    background: white;
+    /* z-index: 2; */
+}
+
 .propic {
-    width: 65%;
-    height: 65%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }

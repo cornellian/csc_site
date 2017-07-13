@@ -1,6 +1,5 @@
 body {
     padding-top: 30px;
-    /*height: 2000px;*/
     width: 100%;
 }
 
@@ -49,7 +48,7 @@ p {
 }
 
 .banner-text {
-    padding: 90px;
+    padding: 50px;
     text-align: left;
 }
 
@@ -72,14 +71,14 @@ p {
     }
     .banner-text {
         padding: 32px;
-        text-align: center;
+        text-align: left;
     }
     .past-clients {
         width: 160px;
     }
-    .pic-label {
-        /*display: none;*/
-    }
+    /* .pic-label {
+        display: none;
+    } */
 }
 
 .col-xs-5ths,
