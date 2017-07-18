@@ -2,6 +2,9 @@ body {
     padding-top: 30px;
     width: 100%;
 }
+.col-8{
+width: 12.5%;
+}
 
 h1 {
     font-size: 6.854em;
@@ -127,4 +130,11 @@ p {
         width: 20%;
         float: left;
     }
+}
+#footer-container{
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  /*float: left;*/
 }
