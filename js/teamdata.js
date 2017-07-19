@@ -80,3 +80,24 @@ var teamdata = {
     email: "cbern"
   }
 };
+
+var companies = [
+  "NBC Universal",
+  "Goldman Sachs",
+  "Boeing",
+  "Bank of America Merrill Lynch",
+  "BlackRock",
+  "Deutsche Bank",
+  "Johnson & Johnson",
+  "Procter & Gamble",
+  "JPMorgan Chase",
+  "Quirky",
+  "Parthenon-EY",
+  "Accenture",
+  "PricewaterhouseCoopers",
+  "GTC Group",
+  "Deloitte",
+  "Northwell Health",
+  "SL Green",
+  "Sabre"
+];
