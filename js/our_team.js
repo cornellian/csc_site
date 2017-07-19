@@ -14,6 +14,15 @@ function setData() {
     $("#" + htmlID).find("p").text(teamdata[key].name);
     counter++;
   }
+
+  counter = 0; //creates new row for every 6 items
+  for (var i = 0; i < companies.length; i++) {
+    console.log(companies[i]);
+
+    $("#workplaces").append(
+      "<p class='col-md-2 col-sm-4 col-xs-6'>" + companies[i] + "</p>"
+    );
+  }
 }
 
 $(".element-item").click(function(event) {
