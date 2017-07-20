@@ -155,3 +155,11 @@ body {
     height: 100%;
     z-index: 1;
 }
+#workplaces {
+  display:table;
+
+
+}
+.single-company {
+  /*text-align: right;*/
+}

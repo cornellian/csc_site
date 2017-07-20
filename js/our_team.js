@@ -20,7 +20,9 @@ function setData() {
     console.log(companies[i]);
 
     $("#workplaces").append(
-      "<p class='col-md-2 col-sm-4 col-xs-6'>" + companies[i] + "</p>"
+      "<p class='col-md-3 col-sm-4 col-xs-6 single-company'>" +
+        companies[i] +
+        "</p>"
     );
   }
 }
