@@ -44,7 +44,7 @@ $(".element-item").click(function(event) {
 // init Isotope
 var iso = new Isotope(".grid", {
   itemSelector: ".element-item",
-  layoutMode: "masonry"
+  layoutMode: "cellsByRow"
 });
 
 // filter functions

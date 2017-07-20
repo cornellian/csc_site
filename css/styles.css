@@ -1,6 +1,8 @@
 body {
     padding-top: 30px;
     width: 100%;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
 }
 .col-8{
 width: 12.5%;
@@ -131,10 +133,7 @@ p {
         float: left;
     }
 }
-.footer {
-  /*overflow: auto;*/
-  /*height: 30px;*/
-}
+
 #footer-container{
   overflow: auto;
 
