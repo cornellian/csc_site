@@ -58,7 +58,6 @@ line-height: 2em;
 }
 
 
-
 .banner {
     background-image: url(../resources/banner-notext.png);
     color: white;
@@ -72,8 +71,8 @@ line-height: 2em;
 
 .banner-text {
     padding-left: 74px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 143px;
+    padding-bottom: 143px;
     text-align: left;
 }
 
