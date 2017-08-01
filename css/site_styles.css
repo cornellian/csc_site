@@ -110,3 +110,8 @@ small,
 @media (min-width: 992px) {}
 
 @media (min-width: 1200px) {}
+
+#bot_footer {
+    background-color: black;
+    color: white;
+}
