@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cornell Strategic Consulting</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/our_team.css" rel="stylesheet">
+    <script src="js/teamdata.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>H
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+                <a class="navbar-brand" href="#">CSC</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">About</a></li>
+                    <li class="active"><a href="our_team.html">Our Team</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="alumni.html">Alumni</a></li>
+                    <li><a href="apply.html">Business Analyst Program</a></li>
+                    <!-- <li><a href="#">Join Us</a></li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <header class="main-header banner" role="banner">
+        <!-- <img src="resources/csc-horiz.png" alt="Banner Image" class="banner-image" /> -->
+        <h1 class="banner-text">Meet <br/>The<br/>Team</h1>
+    </header>
+    <section class="info-section container-fluid">
+        <div class="row ">
+            <h2>Our Team</h2>
+            <div class="col-md-4">
+                <h3>Team</h3>
+                <p>
+                    We are a student led group with motivated, entrepreneurial, and talented individuals who provide pro-bono consulting work
+                    for organizations in the area of strategic consulting, finance, marketing, and many other fields.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Diversity</h3>
+                <p>
+                    Our teams consist of the most creative, analytical, and driven students at Cornell. We accept all majors, and have analysts
+                    in each of the seven schools. This allows us to provide the widest range of perspective in solving client
+                    issues.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Community</h3>
+                <p>
+                    We want to make a difference in the Cornell and Ithaca community through our consulting work and initiatives by being the
+                    only consulting group at Cornell that also focuses on helping start up companies in the Ithaca community.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="info-section container-fluid grey-background">
+        <h2>Leadership</h2>
+        <div class="row" style="padding-bottom:40px;">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <img src="resources/people/eboard/robbie.jpg" class="past-clients" />
+                <p class="pic-label">Chris G, President</p>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <img src="resources/people/eboard/robbie.jpg" class="past-clients" />
+                <p class="pic-label">Ursa Space Systems</p>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <img src="resources/people/eboard/robbie.jpg" class="past-clients" />
+                <p class="pic-label">Chris G, President</p>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <img src="resources/people/eboard/robbie.jpg" class="past-clients" />
+                <p class="pic-label">Ursa Space Systems</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="info-section">    <h2>Current Team</h2>
+
+        <div class="button-group filters-button-group">
+            <button class="button is-checked" data-filter="*">show all</button>
+            <button class="button" data-filter=".eighteen">2018</button>
+            <button class="button" data-filter=".nineteen">2019</button>
+            <button class="button" data-filter=".twenty">2020</button>
+            <button class="button" data-filter=".twentyone">2021</button>
+            <button class="button" data-filter=".team1">Team 1</button>
+            <button class="button" data-filter=".team2">Team 2</button>
+            <button class="button" data-filter=".team3">Team 3</button>
+            <button class="button" data-filter=".team4">Team 4</button>
+
+            <!--<button class="button" data-filter=":not(.transition)">not transition</button>
+            <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+            <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+            <button class="button" data-filter="ium">name ends with &ndash;ium</button>-->
+        </div>
+
+        <div class="grid">
+            <!-- same number of elements as people in teamdata.json !-->
+            <div class="row">
+            <div id="person0" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person1" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person2" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person3" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person4" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person5" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person6" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person7" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person8" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person9" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person10" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person11" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+          </div>
+          <div class="row">
+            <div id="person12" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person13" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person14" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+            <div id="person15" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
+                <p class="name">Loading</p>
+                <img src="resources/loading.gif" class="propic" />
+            </div>
+          </div>
+
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3 id="modal-title">Justin Kuang</h3>
+                        <img id="modal-pic" src="" />
+                        <p><a id="modal-linkedin"></a></p>
+                    </div>
+                    <div class="col-lg-8">
+                        <p id="modal-description">
+                            <p>
+                    </div>
+
+                </div>
+            </div>
+        </div></section>
+        <section class="info-section grey-background">
+          <div id="workplaces">
+            <h2>Where Else We Work</h2>
+          </div>
+        </section>
+
+        <footer class="footer" style="background:black">
+              <div class="container" id="footer-container">
+                <p style="margin:0; text-align:center">Cornell Strategic Consulting 2017</p>
+
+              </div>
+            </footer>
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/our_team.js "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    /*display:table-cell;*/
+    vertical-align: middle;
+}
+
+
+/*modal*/
+
+#modal-description {
+    margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.modal {
+    text-align: center;
+    margin-top: 15%;
+}
+
+#modal-pic {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* ---- button ---- */
+
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-bottom: 10px;
+    /*background: #EEE;*/
+    border: none;
+    /*border-radius: 7px;*/
+    /*background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2));*/
+    color: #222;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8CF;
+    text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+    color: #222;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #28F;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+
+/* ---- button-group ---- */
+
+#isotope-selectors {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    float: left;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.button-group .button:first-child {
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.button-group .button:last-child {
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+
+/* ---- isotope ---- */
+
+.grid {
+    border: 1px solid #333;
+    align-content: center;
+    /* height: 300px; */
+}
+
+
+/* clear fix */
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ---- .element-item ---- */
+
+.element-item {
+    position: relative;
+    text-align: center;
+    transition: opacity 0.5s, background-color 0.25s linear, border-color 0.25s linear;
+    /*float: left;*/
+    /* width: 233px; */
+    /* height: 233px; */
+    /*margin: 20px; */
+    padding: 0px !important;
+    /*background: white;*/
+    color: black;
+}
+
+
+/* @media (max-width: 768px) {
+    .element-item {
+        width: 50%;
+    }
+} */
+
+.element-item>* {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    opacity: 0.95;
+    margin: 0 !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    font-size: 1.05em;
+}
+
+.propic {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#workplaces {
+    display: table;
+}
+
+.single-company {
+    /*text-align: right;*/
+}

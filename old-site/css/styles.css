@@ -1,0 +1,146 @@
+body {
+    padding-top: 30px;
+    width: 100%;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+}
+.col-8{
+width: 12.5%;
+}
+
+h1 {
+    font-size: 6.854em;
+}
+
+h2 {
+    font-size: 4.236em;
+}
+
+h3 {
+    font-size: 2.618em;
+}
+h4 {
+    font-size: 2.427em;
+}
+p {
+    font-size: 1.618em;
+}
+
+.banner-image {
+    width: 100%;
+    margin: 0px;
+}
+
+.info-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.past-clients {
+    width: 200px;
+    /*height: 300px;*/
+    padding: 20px;
+    /*margin-top: 50px;*/
+}
+
+.banner {
+    background-image: url(../resources/banner-notext.png);
+    color: white;
+}
+
+.grey-background {
+    margin: 0px;
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.banner-text {
+    padding: 50px;
+    text-align: left;
+}
+
+.pic-label {
+    padding: 10px;
+}
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 4.236em;
+    }
+    h2 {
+        font-size: 2.618em;
+    }
+    h3 {
+        font-size: 1.618em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .banner-text {
+        padding: 32px;
+        text-align: left;
+    }
+    .past-clients {
+        width: 160px;
+    }
+    /* .pic-label {
+        display: none;
+    } */
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+.rectangle-button {
+    border: 3px solid black;
+    /*width: auto;*/
+    /*display: inline;*/
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+#footer-container{
+  overflow: auto;
+
+  height: inherit;
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  /*float: left;*/
+}

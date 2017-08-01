@@ -26,19 +26,22 @@ function setData() {
       "</p>"
     );
   }
+  $(".element-item").click(function (event) {
+    console.log("clicked");
+    var name = jQuery(this)[0].innerText;
+    console.log(name);
+    $("#modal-title").text(name);
+    name = name.replace(/\s+/g, "");
+    var personObj = teamdata[name];
+    $("#modal-pic").attr("src", personObj.photo);
+    $("#modal-linkedin").text(personObj.linkedin.substring(8));
+    $("#modal-linkedin").attr("href", personObj.linkedin);
+    $("#modal-description").text(personObj.description);
+    $(".modal").modal();
+  });
 }
 
-$(".element-item").click(function (event) {
-  var name = jQuery(this)[0].innerText;
-  $("#modal-title").text(name);
-  name = name.replace(/\s+/g, "");
-  var personObj = teamdata[name];
-  $("#modal-pic").attr("src", personObj.photo);
-  $("#modal-linkedin").text(personObj.linkedin.substring(8));
-  $("#modal-linkedin").attr("href", personObj.linkedin);
-  $("#modal-description").text(personObj.description);
-  $(".modal").modal();
-});
+
 
 // external js: isotope.pkgd.js
 

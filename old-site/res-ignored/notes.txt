@@ -1,0 +1,1 @@
+edit navbar padding on mobile screens for banner
