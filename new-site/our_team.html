@@ -17,7 +17,7 @@
     <link href="css/our_team.css" rel="stylesheet">
     <script src="js/teamdata.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -74,141 +74,117 @@
         <div class="row">
             <!-- <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 text-center"> -->
             <div class="col-lg-12 text-center">
-
-              <h2>Current Members</h2>
                 <div class="row">
-                  <div class="button-group filters-button-group">
-                      <button class="button is-checked" data-filter="*">show all</button>
-                      <button class="button" data-filter=".eighteen">2018</button>
-                      <button class="button" data-filter=".nineteen">2019</button>
-                      <button class="button" data-filter=".twenty">2020</button>
-                      <button class="button" data-filter=".twentyone">2021</button>
-                      <button class="button" data-filter=".team1">Team 1</button>
-                      <button class="button" data-filter=".team2">Team 2</button>
-                      <button class="button" data-filter=".team3">Team 3</button>
-                      <button class="button" data-filter=".team4">Team 4</button>
+                    <h2>Current Members</h2>
+                    <div>
+                        <div id="isotope-selectors" class="button-group filters-button-group">
+                            <button class="button is-checked" data-filter="*">show all</button>
+                            <button class="button" data-filter=".eighteen">2018</button>
+                            <button class="button" data-filter=".nineteen">2019</button>
+                            <button class="button" data-filter=".twenty">2020</button>
+                            <button class="button" data-filter=".twentyone">2021</button>
+                            <button class="button" data-filter=".team1">Team 1</button>
+                            <button class="button" data-filter=".team2">Team 2</button>
+                            <button class="button" data-filter=".team3">Team 3</button>
+                            <button class="button" data-filter=".team4">Team 4</button>
 
-                      <!--<button class="button" data-filter=":not(.transition)">not transition</button>
+                            <!--<button class="button" data-filter=":not(.transition)">not transition</button>
                       <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
                       <button class="button" data-filter="numberGreaterThan50">number > 50</button>
                       <button class="button" data-filter="ium">name ends with &ndash;ium</button>-->
-                  </div>
-                  <div class="grid">
-                      <!-- same number of elements as people in teamdata.json !-->
-                      <div class="row">
-                      <div id="person0" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person1" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person2" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person3" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person4" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person5" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person6" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person7" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person8" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person9" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person10" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person11" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div id="person12" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person13" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person14" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
-                      <div id="person15" class="element-item col-lg-1 col-md-2 col-sm-3 col-xs-4">
-                          <p class="name">Loading</p>
-                          <img src="resources/loading.gif" class="propic" />
-                      </div>
+                        </div>
                     </div>
 
-              </div>
-              <!-- <div class="row">
+                </div>
 
-              <div class="col-lg-6 text-center">
-                <h2>A Bootstrap Starter Template</h2>
-              </div>
-              <div class="col-lg-6 text-center">
-                <h3>Project Structure</h3>
-                <p class="content-text">
-VCG engages with its clients on 12 to 14 week long projects. Each team is assigned a project leader, 4-6 consultants, and 1-2 senior advisors. We regularly meet and deliberate with all of our clients to keep our work consistently relevant and as effectual as possible.
+                <div class="row">
+                    <div class="grid">
+                        <!-- same number of elements as people in teamdata.json !-->
+                        <div class="row">
+                            <div id="person0" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person1" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person2" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person3" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person4" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person5" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person6" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person7" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person8" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person9" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person10" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person11" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="person12" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person13" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person14" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                            <div id="person15" class="element-item col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                <p class="name">Loading</p>
+                                <img src="resources/loading.gif" class="propic" />
+                            </div>
+                        </div>
 
-In addition to our regular engagement, VCG consulting teams compile and present at least two formal deliverables. Additional midpoint deliverables can also be scheduled at our client's request.
-                </p>
-              </div>
-            </div> -->
-            <!-- <div class="row">
-            <div class="col-lg-6" >
-              <h3>Project Structure</h3>
-              <p class="content-text">
-VCG engages with its clients on 12 to 14 week long projects. Each team is assigned a project leader, 4-6 consultants, and 1-2 senior advisors. We regularly meet and deliberate with all of our clients to keep our work consistently relevant and as effectual as possible.
+                    </div>
 
-In addition to our regular engagement, VCG consulting teams compile and present at least two formal deliverables. Additional midpoint deliverables can also be scheduled at our client's request.
-              </p>
+                </div>
             </div>
-            <div class="col-lg-6 text-center">
-              <h2>A Bootstrap Starter Template</h2>
-            </div>
-          </div>
-            </div>
-        </div> -->
-        <!-- /.row -->
+            <!-- /.container -->
+            <footer class="footer">
+                <div class="container">
+                    <p class="text-muted">Cornell Strategic Consulting 2017-2018</p>
+                </div>
+            </footer>
+            <!-- jQuery Version 1.11.1 -->
+            <script src="js/jquery.js"></script>
 
-    </div>
-    <!-- /.container -->
-    <footer class="footer">
-          <div class="container">
-            <p class="text-muted">Cornell Strategic Consulting 2017-2018</p>
-          </div>
-        </footer>
-    <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/our_team.js "></script>
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/our_team.js "></script>
 
 </body>
 
