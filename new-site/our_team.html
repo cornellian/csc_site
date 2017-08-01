@@ -15,9 +15,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/site_styles.css" rel="stylesheet">
     <link href="css/our_team.css" rel="stylesheet">
-    <script src="js/teamdata.js"></script>
+
+
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -48,10 +50,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">ABOUT</a>
+                        <a href="index.html">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#">MEMBERS</a>
+                        <a href="our_team.html">MEMBERS</a>
                     </li>
                     <li>
                         <a href="#">SERVICES</a>
@@ -75,7 +77,7 @@
             <!-- <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 text-center"> -->
             <div class="col-lg-12 text-center">
                 <div class="row">
-                    <h2>Current Members</h2>
+                    <h2 class="element-item">Current Members</h2>
                     <div>
                         <div id="isotope-selectors" class="button-group filters-button-group">
                             <button class="button is-checked" data-filter="*">show all</button>
@@ -173,18 +175,37 @@
 
                 </div>
             </div>
-            <!-- /.container -->
-            <footer class="footer">
-                <div class="container">
-                    <p class="text-muted">Cornell Strategic Consulting 2017-2018</p>
-                </div>
-            </footer>
-            <!-- jQuery Version 1.11.1 -->
-            <script src="js/jquery.js"></script>
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3 id="modal-title">Justin Kuang</h3>
+                        <img id="modal-pic" src="" />
+                        <p><a id="modal-linkedin"></a></p>
+                    </div>
+                    <div class="col-lg-8">
+                        <p id="modal-description">
+                            <p>
+                    </div>
 
-            <!-- Bootstrap Core JavaScript -->
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/our_team.js "></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Cornell Strategic Consulting 2017-2018</p>
+        </div>
+    </footer>
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/teamdata.js"></script>
+    <script src="js/our_team.js "></script>
 
 </body>
 
