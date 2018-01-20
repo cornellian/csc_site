@@ -112,6 +112,11 @@ small,
 @media (min-width: 1200px) {}
 
 #bot_footer {
+    align-content:center;
+    vertical-align: middle;
     background-color: black;
     color: white;
+}
+#footer_text {
+    padding: 20px !important;
 }
